@@ -15,7 +15,6 @@ public class AlbanianVirus {
         String[] options= { "Yes", "No", "Sorry, Cancel" };
         JFrame frame= new JFrame();
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        // JOptionPane.showMessageDialog(frame, text, "Virus alert!", JOptionPane.ERROR_MESSAGE);
         int x= JOptionPane.showOptionDialog(frame, text,
             "Virus Alert !",
             JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE, null, options, options[0]);
