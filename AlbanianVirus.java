@@ -4,6 +4,9 @@ import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
+/** Generates a window with text and 3 options Yes No and Sorry, Cancel.
+* Clicking any of the options closes the window
+*/
 public class AlbanianVirus {
 
     public static void main(String[] args) {
